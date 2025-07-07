@@ -76,3 +76,15 @@ Atribuição: =
     E então, execute `DL.java`. O programa deve gerar a árvore sintática sem erros.
 
 Com essas mudanças, o lexer e o parser da linguagem DL estarão prontos para lidar com os novos operadores de igualdade, relacionais (`==`, `!=`, `>=`) e o operador lógico AND (`&`), respeitando as precedências especificadas.
+
+Esta seção detalha as contribuições e alterações feitas no compilador da linguagem DL. O trabalho foi realizado pela Equipe 4.
+
+Componentes:
+
+Laurah Dias
+
+Kelson Vieira
+
+Isaac Correa
+
+Marcos Siqueira
