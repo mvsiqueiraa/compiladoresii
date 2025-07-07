@@ -1,0 +1,7 @@
+programa teste inicio
+  inteiro a; 
+  inteiro b; 
+  booleano c;
+  se ((a == b) & (a != 5))
+    b = a;
+fim.
