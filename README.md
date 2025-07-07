@@ -1,21 +1,15 @@
-## Getting Started
+# Compilador para a Linguagem Didática (DL)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto consiste em um compilador para a Linguagem Didática (DL), desenvolvido como parte da disciplina de Compiladores. O compilador implementa as fases de análise léxica, sintática e semântica, e foi estendido para incluir novos operadores relacionais e lógicos.
 
-## Folder Structure
+## Estrutura do Projeto
 
-The workspace contains two folders by default, where:
+O projeto está organizado nos seguintes pacotes principais:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- **`src/lexer`**: Contém as classes responsáveis pela análise léxica (Lexer, Token, Tag).
+- **`src/parser`**: Contém a classe do analisador sintático (Parser).
+- **`src/inter`**: Contém as classes para a representação intermediária (árvore sintática), como nós de expressão (`Expr`), comandos (`Stmt`) e outros.
+- **`src/dl`**: Contém a classe principal (`DL.java`) para execução do compilador.
 
 
 
